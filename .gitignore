@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Scan results and real checks are local-only.
+out/
+checks/*
+!checks/.gitkeep
+!checks/README.md
+
+.DS_Store
+Thumbs.db
